@@ -7,23 +7,54 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B9721399225CBE6300C2CF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9721398225CBE6300C2CF13 /* AppDelegate.swift */; };
-		B972139B225CBE6300C2CF13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B972139A225CBE6300C2CF13 /* ViewController.swift */; };
-		B972139E225CBE6300C2CF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B972139C225CBE6300C2CF13 /* Main.storyboard */; };
-		B97213A1225CBE6300C2CF13 /* Zivame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B972139F225CBE6300C2CF13 /* Zivame.xcdatamodeld */; };
-		B97213A3225CBE6B00C2CF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97213A2225CBE6B00C2CF13 /* Assets.xcassets */; };
-		B97213A6225CBE6B00C2CF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97213A4225CBE6B00C2CF13 /* LaunchScreen.storyboard */; };
+		92ACEE321EB566F0C8B2FFBC /* Pods_Zivame.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BEB531E2185D0C7EFFAB75D /* Pods_Zivame.framework */; };
+		B97213B3225CCC5400C2CF13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213B2225CCC5400C2CF13 /* AppDelegate.swift */; };
+		B97213B7225CCC6900C2CF13 /* Zivame.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B97213B5225CCC6900C2CF13 /* Zivame.xcdatamodeld */; };
+		B97213BB225CCCA400C2CF13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B97213B8225CCCA400C2CF13 /* Assets.xcassets */; };
+		B97213BC225CCCA400C2CF13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97213B9225CCCA400C2CF13 /* LaunchScreen.storyboard */; };
+		B97213BD225CCCA400C2CF13 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B97213BA225CCCA400C2CF13 /* Main.storyboard */; };
+		B97213C0225CCD2900C2CF13 /* ProductModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213BF225CCD2900C2CF13 /* ProductModel.swift */; };
+		B97213C8225CD89E00C2CF13 /* ProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213C7225CD89E00C2CF13 /* ProductViewModel.swift */; };
+		B97213CB225CD93B00C2CF13 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213CA225CD93B00C2CF13 /* Protocols.swift */; };
+		B97213CE225CDD1500C2CF13 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213CD225CDD1500C2CF13 /* Extensions.swift */; };
+		B97213D0225CDEA500C2CF13 /* Tests.json in Resources */ = {isa = PBXBuildFile; fileRef = B97213CF225CDEA400C2CF13 /* Tests.json */; };
+		B97213D2225CEA6000C2CF13 /* ProductViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213D1225CEA6000C2CF13 /* ProductViewController.swift */; };
+		B97213D7225CEC5400C2CF13 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213D6225CEC5400C2CF13 /* ShadowView.swift */; };
+		B97213DA225CF2FA00C2CF13 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213D9225CF2FA00C2CF13 /* Constants.swift */; };
+		B97213DD225CFC6900C2CF13 /* ProductTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213DC225CFC6900C2CF13 /* ProductTableView.swift */; };
+		B97213DF225CFC8F00C2CF13 /* ProductTableView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97213DE225CFC8F00C2CF13 /* ProductTableView.xib */; };
+		B97213E3225CFD3000C2CF13 /* ProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213E1225CFD3000C2CF13 /* ProductTableViewCell.swift */; };
+		B97213E4225CFD3000C2CF13 /* ProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97213E2225CFD3000C2CF13 /* ProductTableViewCell.xib */; };
+		B97213E7225CFD4500C2CF13 /* ReviewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B97213E5225CFD4500C2CF13 /* ReviewTableViewCell.swift */; };
+		B97213E8225CFD4500C2CF13 /* ReviewTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B97213E6225CFD4500C2CF13 /* ReviewTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		46181687ADE18303003D55D6 /* Pods-Zivame.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zivame.release.xcconfig"; path = "Pods/Target Support Files/Pods-Zivame/Pods-Zivame.release.xcconfig"; sourceTree = "<group>"; };
+		7BEB531E2185D0C7EFFAB75D /* Pods_Zivame.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zivame.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9721395225CBE6300C2CF13 /* Zivame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zivame.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9721398225CBE6300C2CF13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B972139A225CBE6300C2CF13 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B972139D225CBE6300C2CF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B97213A0225CBE6300C2CF13 /* Zivame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zivame.xcdatamodel; sourceTree = "<group>"; };
-		B97213A2225CBE6B00C2CF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		B97213A5225CBE6B00C2CF13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B97213A7225CBE6B00C2CF13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B97213B1225CCC5300C2CF13 /* Zivame-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Zivame-Bridging-Header.h"; sourceTree = "<group>"; };
+		B97213B2225CCC5400C2CF13 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B97213B6225CCC6900C2CF13 /* Zivame.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Zivame.xcdatamodel; sourceTree = "<group>"; };
+		B97213B8225CCCA400C2CF13 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B97213B9225CCCA400C2CF13 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B97213BA225CCCA400C2CF13 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B97213BF225CCD2900C2CF13 /* ProductModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductModel.swift; sourceTree = "<group>"; };
+		B97213C7225CD89E00C2CF13 /* ProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewModel.swift; sourceTree = "<group>"; };
+		B97213CA225CD93B00C2CF13 /* Protocols.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		B97213CD225CDD1500C2CF13 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B97213CF225CDEA400C2CF13 /* Tests.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tests.json; sourceTree = "<group>"; };
+		B97213D1225CEA6000C2CF13 /* ProductViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductViewController.swift; sourceTree = "<group>"; };
+		B97213D6225CEC5400C2CF13 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		B97213D9225CF2FA00C2CF13 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B97213DC225CFC6900C2CF13 /* ProductTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableView.swift; sourceTree = "<group>"; };
+		B97213DE225CFC8F00C2CF13 /* ProductTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableView.xib; sourceTree = "<group>"; };
+		B97213E1225CFD3000C2CF13 /* ProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductTableViewCell.swift; sourceTree = "<group>"; };
+		B97213E2225CFD3000C2CF13 /* ProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ProductTableViewCell.xib; sourceTree = "<group>"; };
+		B97213E5225CFD4500C2CF13 /* ReviewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewTableViewCell.swift; sourceTree = "<group>"; };
+		B97213E6225CFD4500C2CF13 /* ReviewTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReviewTableViewCell.xib; sourceTree = "<group>"; };
+		FD42782856ACA4E8A704AF7C /* Pods-Zivame.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zivame.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Zivame/Pods-Zivame.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +62,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				92ACEE321EB566F0C8B2FFBC /* Pods_Zivame.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AE3C7117BD426F1ACE4692BA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7BEB531E2185D0C7EFFAB75D /* Pods_Zivame.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B972138C225CBE6300C2CF13 = {
 			isa = PBXGroup;
 			children = (
 				B9721397225CBE6300C2CF13 /* Zivame */,
 				B9721396225CBE6300C2CF13 /* Products */,
+				D5A0EEC64163B75295A4C6F3 /* Pods */,
+				AE3C7117BD426F1ACE4692BA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,150 @@
 		B9721397225CBE6300C2CF13 /* Zivame */ = {
 			isa = PBXGroup;
 			children = (
-				B9721398225CBE6300C2CF13 /* AppDelegate.swift */,
-				B972139A225CBE6300C2CF13 /* ViewController.swift */,
-				B972139C225CBE6300C2CF13 /* Main.storyboard */,
-				B97213A2225CBE6B00C2CF13 /* Assets.xcassets */,
-				B97213A4225CBE6B00C2CF13 /* LaunchScreen.storyboard */,
+				B97213D8225CF22E00C2CF13 /* Constants */,
+				B97213D5225CEC0B00C2CF13 /* SubClasses */,
+				B97213CC225CDD0A00C2CF13 /* Extensions */,
+				B97213C9225CD93B00C2CF13 /* Protocols */,
+				B97213C1225CCE7800C2CF13 /* Resources */,
+				B97213BE225CCD1500C2CF13 /* Models */,
+				B97213B4225CCC6900C2CF13 /* DataBase */,
+				B97213AE225CCC0900C2CF13 /* AppDelegate */,
+				B97213AD225CCC0900C2CF13 /* Controllers */,
+				B97213B0225CCC0900C2CF13 /* ViewModels */,
+				B97213AF225CCC0900C2CF13 /* Views */,
 				B97213A7225CBE6B00C2CF13 /* Info.plist */,
-				B972139F225CBE6300C2CF13 /* Zivame.xcdatamodeld */,
 			);
 			path = Zivame;
+			sourceTree = "<group>";
+		};
+		B97213AD225CCC0900C2CF13 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B97213D1225CEA6000C2CF13 /* ProductViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B97213AE225CCC0900C2CF13 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				B97213B2225CCC5400C2CF13 /* AppDelegate.swift */,
+				B97213B1225CCC5300C2CF13 /* Zivame-Bridging-Header.h */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B97213AF225CCC0900C2CF13 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B97213E0225CFCFD00C2CF13 /* ProductTableViewCells */,
+				B97213DB225CFC3A00C2CF13 /* ProductTableView */,
+				B97213B8225CCCA400C2CF13 /* Assets.xcassets */,
+				B97213B9225CCCA400C2CF13 /* LaunchScreen.storyboard */,
+				B97213BA225CCCA400C2CF13 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B97213B0225CCC0900C2CF13 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B97213C7225CD89E00C2CF13 /* ProductViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B97213B4225CCC6900C2CF13 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				B97213B5225CCC6900C2CF13 /* Zivame.xcdatamodeld */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		B97213BE225CCD1500C2CF13 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B97213BF225CCD2900C2CF13 /* ProductModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B97213C1225CCE7800C2CF13 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B97213C2225CCE8A00C2CF13 /* StaticJson */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B97213C2225CCE8A00C2CF13 /* StaticJson */ = {
+			isa = PBXGroup;
+			children = (
+				B97213CF225CDEA400C2CF13 /* Tests.json */,
+			);
+			path = StaticJson;
+			sourceTree = "<group>";
+		};
+		B97213C9225CD93B00C2CF13 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				B97213CA225CD93B00C2CF13 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		B97213CC225CDD0A00C2CF13 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B97213CD225CDD1500C2CF13 /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		B97213D5225CEC0B00C2CF13 /* SubClasses */ = {
+			isa = PBXGroup;
+			children = (
+				B97213D6225CEC5400C2CF13 /* ShadowView.swift */,
+			);
+			path = SubClasses;
+			sourceTree = "<group>";
+		};
+		B97213D8225CF22E00C2CF13 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				B97213D9225CF2FA00C2CF13 /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		B97213DB225CFC3A00C2CF13 /* ProductTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B97213DC225CFC6900C2CF13 /* ProductTableView.swift */,
+				B97213DE225CFC8F00C2CF13 /* ProductTableView.xib */,
+			);
+			path = ProductTableView;
+			sourceTree = "<group>";
+		};
+		B97213E0225CFCFD00C2CF13 /* ProductTableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				B97213E1225CFD3000C2CF13 /* ProductTableViewCell.swift */,
+				B97213E2225CFD3000C2CF13 /* ProductTableViewCell.xib */,
+				B97213E5225CFD4500C2CF13 /* ReviewTableViewCell.swift */,
+				B97213E6225CFD4500C2CF13 /* ReviewTableViewCell.xib */,
+			);
+			path = ProductTableViewCells;
+			sourceTree = "<group>";
+		};
+		D5A0EEC64163B75295A4C6F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD42782856ACA4E8A704AF7C /* Pods-Zivame.debug.xcconfig */,
+				46181687ADE18303003D55D6 /* Pods-Zivame.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +251,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B97213AA225CBE6B00C2CF13 /* Build configuration list for PBXNativeTarget "Zivame" */;
 			buildPhases = (
+				A1EFD52184B7800FFCFC0879 /* [CP] Check Pods Manifest.lock */,
 				B9721391225CBE6300C2CF13 /* Sources */,
 				B9721392225CBE6300C2CF13 /* Frameworks */,
 				B9721393225CBE6300C2CF13 /* Resources */,
+				62F1CED13FA80C9E05BA3EA4 /* [CP] Embed Pods Frameworks */,
+				9554B7CFC1F15EC1754D877F /* [CP] Copy Pods Resources */,
+				B97213C6225CD3E700C2CF13 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -99,6 +280,7 @@
 				TargetAttributes = {
 					B9721394225CBE6300C2CF13 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 				};
 			};
@@ -125,45 +307,107 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B97213A6225CBE6B00C2CF13 /* LaunchScreen.storyboard in Resources */,
-				B97213A3225CBE6B00C2CF13 /* Assets.xcassets in Resources */,
-				B972139E225CBE6300C2CF13 /* Main.storyboard in Resources */,
+				B97213BD225CCCA400C2CF13 /* Main.storyboard in Resources */,
+				B97213E4225CFD3000C2CF13 /* ProductTableViewCell.xib in Resources */,
+				B97213D0225CDEA500C2CF13 /* Tests.json in Resources */,
+				B97213E8225CFD4500C2CF13 /* ReviewTableViewCell.xib in Resources */,
+				B97213BB225CCCA400C2CF13 /* Assets.xcassets in Resources */,
+				B97213BC225CCCA400C2CF13 /* LaunchScreen.storyboard in Resources */,
+				B97213DF225CFC8F00C2CF13 /* ProductTableView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		62F1CED13FA80C9E05BA3EA4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zivame/Pods-Zivame-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9554B7CFC1F15EC1754D877F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Zivame/Pods-Zivame-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1EFD52184B7800FFCFC0879 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zivame-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B97213C6225CD3E700C2CF13 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${PODS_ROOT}/SwiftLint/swiftlint\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		B9721391225CBE6300C2CF13 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B972139B225CBE6300C2CF13 /* ViewController.swift in Sources */,
-				B97213A1225CBE6300C2CF13 /* Zivame.xcdatamodeld in Sources */,
-				B9721399225CBE6300C2CF13 /* AppDelegate.swift in Sources */,
+				B97213D7225CEC5400C2CF13 /* ShadowView.swift in Sources */,
+				B97213E7225CFD4500C2CF13 /* ReviewTableViewCell.swift in Sources */,
+				B97213B3225CCC5400C2CF13 /* AppDelegate.swift in Sources */,
+				B97213C0225CCD2900C2CF13 /* ProductModel.swift in Sources */,
+				B97213DA225CF2FA00C2CF13 /* Constants.swift in Sources */,
+				B97213CB225CD93B00C2CF13 /* Protocols.swift in Sources */,
+				B97213D2225CEA6000C2CF13 /* ProductViewController.swift in Sources */,
+				B97213B7225CCC6900C2CF13 /* Zivame.xcdatamodeld in Sources */,
+				B97213E3225CFD3000C2CF13 /* ProductTableViewCell.swift in Sources */,
+				B97213C8225CD89E00C2CF13 /* ProductViewModel.swift in Sources */,
+				B97213CE225CDD1500C2CF13 /* Extensions.swift in Sources */,
+				B97213DD225CFC6900C2CF13 /* ProductTableView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		B972139C225CBE6300C2CF13 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B972139D225CBE6300C2CF13 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		B97213A4225CBE6B00C2CF13 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B97213A5225CBE6B00C2CF13 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		B97213A8225CBE6B00C2CF13 /* Debug */ = {
@@ -284,35 +528,46 @@
 		};
 		B97213AB225CBE6B00C2CF13 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD42782856ACA4E8A704AF7C /* Pods-Zivame.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X755HZA75;
 				INFOPLIST_FILE = Zivame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nancy.ab.Zivame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zivame/AppDelegate/Zivame-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		B97213AC225CBE6B00C2CF13 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46181687ADE18303003D55D6 /* Pods-Zivame.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8X755HZA75;
 				INFOPLIST_FILE = Zivame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = nancy.ab.Zivame;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Zivame/AppDelegate/Zivame-Bridging-Header.h";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -340,12 +595,12 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		B972139F225CBE6300C2CF13 /* Zivame.xcdatamodeld */ = {
+		B97213B5225CCC6900C2CF13 /* Zivame.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				B97213A0225CBE6300C2CF13 /* Zivame.xcdatamodel */,
+				B97213B6225CCC6900C2CF13 /* Zivame.xcdatamodel */,
 			);
-			currentVersion = B97213A0225CBE6300C2CF13 /* Zivame.xcdatamodel */;
+			currentVersion = B97213B6225CCC6900C2CF13 /* Zivame.xcdatamodel */;
 			path = Zivame.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

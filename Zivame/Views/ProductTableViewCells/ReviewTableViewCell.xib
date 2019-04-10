@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="150" id="KGk-i7-Jjw" customClass="ReviewTableViewCell" customModule="Zivame" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="346" height="150"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="346" height="149.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5VT-Pg-yMj" userLabel="ViewTop">
+                        <rect key="frame" x="0.0" y="0.0" width="346" height="48"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="cAH-wk-6om">
+                                <rect key="frame" x="20" y="20" width="88" height="22"/>
+                                <subviews>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uOc-g6-xyf">
+                                        <rect key="frame" x="0.0" y="0.0" width="16" height="22"/>
+                                        <state key="normal" image="ic_selected_star"/>
+                                    </button>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j9K-NU-aSs">
+                                        <rect key="frame" x="18" y="0.0" width="16" height="22"/>
+                                        <state key="normal" image="ic_selected_star"/>
+                                    </button>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RvB-fZ-xSq">
+                                        <rect key="frame" x="36" y="0.0" width="16" height="22"/>
+                                        <state key="normal" image="ic_selected_star"/>
+                                    </button>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3bI-al-fuC">
+                                        <rect key="frame" x="54" y="0.0" width="16" height="22"/>
+                                        <state key="normal" image="ic_selected_star"/>
+                                    </button>
+                                    <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bUb-U6-mtf">
+                                        <rect key="frame" x="72" y="0.0" width="16" height="22"/>
+                                        <state key="normal" image="ic_selected_star"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
+                            <button opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AKo-FE-bji">
+                                <rect key="frame" x="294" y="21" width="32" height="20"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                                <inset key="imageEdgeInsets" minX="-16" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="31" image="ic_like">
+                                    <color key="titleColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="48" id="KiY-Sb-ne1"/>
+                            <constraint firstItem="AKo-FE-bji" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="cAH-wk-6om" secondAttribute="trailing" constant="8" symbolic="YES" id="MxT-EF-Xjs"/>
+                            <constraint firstAttribute="trailing" secondItem="AKo-FE-bji" secondAttribute="trailing" constant="20" symbolic="YES" id="NaI-b8-lca"/>
+                            <constraint firstItem="cAH-wk-6om" firstAttribute="leading" secondItem="5VT-Pg-yMj" secondAttribute="leading" constant="20" symbolic="YES" id="O7D-Tx-pIR"/>
+                            <constraint firstItem="AKo-FE-bji" firstAttribute="centerY" secondItem="cAH-wk-6om" secondAttribute="centerY" id="crz-sG-iPG"/>
+                            <constraint firstItem="cAH-wk-6om" firstAttribute="top" secondItem="5VT-Pg-yMj" secondAttribute="top" constant="20" symbolic="YES" id="orV-Ch-gfG"/>
+                        </constraints>
+                    </view>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehV-GU-kSB">
+                        <rect key="frame" x="20" y="56" width="306" height="10.5"/>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="15"/>
+                        <color key="textColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dI6-Bm-Gi9">
+                        <rect key="frame" x="298" y="108.5" width="32" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="vN6-z5-fgy"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="13"/>
+                        <color key="textColor" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GBQ-rP-NCU">
+                        <rect key="frame" x="296" y="79.5" width="34" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="PAY-X3-R2t"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="14"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GBQ-rP-NCU" firstAttribute="trailing" secondItem="dI6-Bm-Gi9" secondAttribute="trailing" id="12P-E0-VZS"/>
+                    <constraint firstItem="dI6-Bm-Gi9" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="17h-aa-CW5"/>
+                    <constraint firstItem="ehV-GU-kSB" firstAttribute="top" secondItem="5VT-Pg-yMj" secondAttribute="bottom" constant="8" symbolic="YES" id="BvI-K7-M5D"/>
+                    <constraint firstItem="GBQ-rP-NCU" firstAttribute="top" secondItem="ehV-GU-kSB" secondAttribute="bottom" constant="13" id="HUp-Kw-e0T"/>
+                    <constraint firstAttribute="trailing" secondItem="5VT-Pg-yMj" secondAttribute="trailing" id="a7z-ck-0S5"/>
+                    <constraint firstItem="5VT-Pg-yMj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="cuf-i7-uRT"/>
+                    <constraint firstAttribute="trailing" secondItem="dI6-Bm-Gi9" secondAttribute="trailing" constant="16" id="fl6-Lu-eV0"/>
+                    <constraint firstItem="dI6-Bm-Gi9" firstAttribute="top" secondItem="GBQ-rP-NCU" secondAttribute="bottom" constant="8" symbolic="YES" id="huF-bg-pSY"/>
+                    <constraint firstItem="ehV-GU-kSB" firstAttribute="trailing" secondItem="AKo-FE-bji" secondAttribute="trailing" id="pUC-OP-zcN"/>
+                    <constraint firstItem="GBQ-rP-NCU" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="20" symbolic="YES" id="prQ-6u-k7C"/>
+                    <constraint firstAttribute="bottom" secondItem="dI6-Bm-Gi9" secondAttribute="bottom" constant="20" symbolic="YES" id="ptN-qM-uEU"/>
+                    <constraint firstItem="5VT-Pg-yMj" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="q4O-3b-sxe"/>
+                    <constraint firstItem="ehV-GU-kSB" firstAttribute="leading" secondItem="cAH-wk-6om" secondAttribute="leading" id="wwY-wL-qaJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="btnLikeCount" destination="AKo-FE-bji" id="5Pd-8N-w9c"/>
+                <outlet property="lblDescription" destination="ehV-GU-kSB" id="8gz-ys-u43"/>
+                <outlet property="lblName" destination="GBQ-rP-NCU" id="z9n-2v-ftY"/>
+                <outlet property="lblTime" destination="dI6-Bm-Gi9" id="hh1-Pp-FEZ"/>
+                <outletCollection property="btnStars" destination="uOc-g6-xyf" collectionClass="NSMutableArray" id="IQj-s7-HrV"/>
+                <outletCollection property="btnStars" destination="j9K-NU-aSs" collectionClass="NSMutableArray" id="OGw-Xq-Kz9"/>
+                <outletCollection property="btnStars" destination="RvB-fZ-xSq" collectionClass="NSMutableArray" id="pwy-Py-6zL"/>
+                <outletCollection property="btnStars" destination="3bI-al-fuC" collectionClass="NSMutableArray" id="RW8-W7-3oX"/>
+                <outletCollection property="btnStars" destination="bUb-U6-mtf" collectionClass="NSMutableArray" id="KrH-YV-jwQ"/>
+            </connections>
+            <point key="canvasLocation" x="158.40000000000001" y="121.4392803598201"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="ic_like" width="16" height="16"/>
+        <image name="ic_selected_star" width="16" height="16"/>
+    </resources>
+</document>
